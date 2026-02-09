@@ -32,6 +32,8 @@ def run_system_monolith():
             for i in range(10):
                 print(n[i] + " - " + r[i]) 
                 
+
+                
         elif opt == "2":
             new_name = input("Name: ")
             new_rank = input("Rank: ")
@@ -56,8 +58,8 @@ def run_system_monolith():
             
             for rank in r:
                 if rank == "Captain" or "Commander": 
-                    count = count + 1
-            print("High ranking officers: " + count) 
+                    counts = count + 1
+                    print("High ranking officers: ", counts) 
             
         elif opt == "5":
             print("Shutting down.")
