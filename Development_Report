@@ -1,0 +1,26 @@
+# Bug 1:
+# Added "()" to the end of run_monolith. 
+# Otherwise if this was not added, the system was full of defs but none was called upon.
+
+# Bug 2:
+# Added "=="
+# Added "==" to opt == 1, this makes it a comparison compared to a assignment, allowing opt 1 to be a chosen element.
+
+# Bug 3:
+# Added "break"
+# Added a "break" statement to prevent the infinite loop of loading and causing crashes.
+
+# Bug 4:
+# Removed plus sign
+# Removed the plus sign in opt 4 to prevent the error of trying to add a string and an int together.
+
+# Bug 5:
+# Changed range 
+# Changed the range in opt 1 to be the length of n, preventing out of range errors.
+
+# Bug 6:
+# Changed range
+# Changed the range of opt 1 further to be Len(n), so that it doesnt break no matter the crew number.
+
+
+
