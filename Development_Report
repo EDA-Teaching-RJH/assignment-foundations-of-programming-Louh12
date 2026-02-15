@@ -22,5 +22,7 @@
 # Changed range
 # Changed the range of opt 1 further to be Len(n), so that it doesnt break no matter the crew number.
 
-
-
+# Dangers of Parrallel lists:
+# Parallel lists must be kept in sync, so if one list is changed without changing all the lists, it can lead to errors as one list
+# may contain data for a removed crew member. This will lead to index errors and out of range errors.
+# This can be prevented by using a function that adds and removes crew members, so that all lists are updated.
